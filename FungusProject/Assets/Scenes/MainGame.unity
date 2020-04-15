@@ -297,7 +297,8 @@ MonoBehaviour:
   nameText: Bartender
   nameColor: {r: 0.17661981, g: 0.764151, b: 0.4039541, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: f19d7b838717af04698349c9bc76f271, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -844,7 +845,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 73.06383
     y: 38.000004
-    width: 120
+    width: 126
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -873,19 +874,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1395.8077, y: 212.11066}
+  scrollPos: {x: 2271.4265, y: 623.1931}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 393
-  zoom: 0.4000005
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 554982666}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 554982297}
@@ -946,7 +946,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 569.275
     y: 326.24423
-    width: 137.49988
+    width: 162
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -977,7 +977,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 481.58722
     y: 478.343
-    width: 120
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1012,7 +1012,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 344.364
     y: 308.45706
-    width: 120
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1044,7 +1044,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 223.75397
     y: 556.86896
-    width: 142.49988
+    width: 166
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1076,7 +1076,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -52.779213
     y: 556.8105
-    width: 120
+    width: 142
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1108,7 +1108,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -100.81544
     y: 404.46066
-    width: 124.9999
+    width: 150
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1140,7 +1140,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -154.29489
     y: 243.13263
-    width: 142.49988
+    width: 162
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1170,7 +1170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -378.35944
     y: 196.09033
-    width: 120
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1201,7 +1201,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -268.26862
     y: 41.357117
-    width: 124.9999
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1358,7 +1358,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.88832
     y: 260.12787
-    width: 124.9999
+    width: 150
     height: 40
   tint: {r: 0.25882354, g: 0.5647059, b: 0.28858414, a: 1}
   useCustomTint: 1
@@ -1530,7 +1530,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 225.28523
     y: 116.16025
-    width: 120
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1698,7 +1698,7 @@ MonoBehaviour:
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 1
+  extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
@@ -1852,7 +1852,7 @@ MonoBehaviour:
     Go back to your own home pig.
   description: 
   character: {fileID: 1167047727}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6a9999bd7c8a0ff4a84b6a79c5b6e24a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2034,7 +2034,7 @@ MonoBehaviour:
     do you think? The Bar you donkey.
   description: 
   character: {fileID: 1167047727}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6a9999bd7c8a0ff4a84b6a79c5b6e24a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2452,7 +2452,7 @@ MonoBehaviour:
     of course, I had to uhm.. 'inspect' the goods.
   description: 
   character: {fileID: 1167047727}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6a9999bd7c8a0ff4a84b6a79c5b6e24a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2480,7 +2480,7 @@ MonoBehaviour:
     don't work for the state like you.
   description: 
   character: {fileID: 1167047727}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6a9999bd7c8a0ff4a84b6a79c5b6e24a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2639,7 +2639,7 @@ MonoBehaviour:
     of course haha.
   description: 
   character: {fileID: 886809630}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2773,7 +2773,7 @@ MonoBehaviour:
   storyText: Gotcha, of course not silly inspector.
   description: 
   character: {fileID: 886809630}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2828,7 +2828,7 @@ MonoBehaviour:
   storyText: Haha, twas me you see! I'm the killer!
   description: 
   character: {fileID: 886809630}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3290,7 +3290,7 @@ MonoBehaviour:
   storyText: Uhuh, yeah! The {b}Smokers{/b}.
   description: 
   character: {fileID: 886809630}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3344,7 +3344,7 @@ MonoBehaviour:
   storyText: Uhm... Y'know, just doing some stuff around back; nothing bad I promise!
   description: 
   character: {fileID: 886809630}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3465,7 +3465,7 @@ MonoBehaviour:
   storyText: No! I'm serious, I swear, I can show my licence and everything!
   description: 
   character: {fileID: 886809630}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3520,7 +3520,7 @@ MonoBehaviour:
     at once.
   description: 
   character: {fileID: 886809630}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3615,7 +3615,7 @@ MonoBehaviour:
     stagnant.
   description: 
   character: {fileID: 886809630}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3670,7 +3670,7 @@ MonoBehaviour:
     - sounds backward, I know, but it works for me.
   description: 
   character: {fileID: 886809630}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4971,7 +4971,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 531.25684
     y: 206.8024
-    width: 194.99982
+    width: 234
     height: 40
   tint: {r: 0.25882354, g: 0.5647059, b: 0.2901961, a: 1}
   useCustomTint: 1
@@ -5492,7 +5492,7 @@ MonoBehaviour:
     there's not much here. I'll be here if you need anything.
   description: 
   character: {fileID: 519009486}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f19d7b838717af04698349c9bc76f271, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5851,7 +5851,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1256.9285
     y: 19.7086
-    width: 134.9999
+    width: 162
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5881,7 +5881,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1116.0476
     y: -39.778152
-    width: 167.49985
+    width: 194
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6123,7 +6123,7 @@ MonoBehaviour:
     a bit too much alcohol.
   description: 
   character: {fileID: 519009486}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f19d7b838717af04698349c9bc76f271, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6391,7 +6391,7 @@ MonoBehaviour:
     suspects have been here though - so that rules them out.
   description: 
   character: {fileID: 519009486}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f19d7b838717af04698349c9bc76f271, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6536,7 +6536,7 @@ MonoBehaviour:
   storyText: Of course. Good luck Inspector.
   description: 
   character: {fileID: 519009486}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f19d7b838717af04698349c9bc76f271, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6593,7 +6593,7 @@ MonoBehaviour:
     information.
   description: 
   character: {fileID: 519009486}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f19d7b838717af04698349c9bc76f271, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6919,7 +6919,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1379.3029
     y: 244.06465
-    width: 174.99985
+    width: 202
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6966,7 +6966,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1384.0602
     y: 373.8257
-    width: 132.4999
+    width: 154
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8317,7 +8317,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 898.96643
     y: 646.1944
-    width: 154.99986
+    width: 186
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8360,7 +8360,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1051.0824
     y: 430.92914
-    width: 129.99991
+    width: 158
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9853,7 +9853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: InterrogationRequirement
-  value: 1
+  value: 0
 --- !u!114 &554982543
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9906,7 +9906,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 835.40063
     y: -237.50723
-    width: 120
+    width: 126
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9940,7 +9940,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 567.10547
     y: -235.97769
-    width: 120
+    width: 122
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9974,7 +9974,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 346.75714
     y: -184.4454
-    width: 120
+    width: 122
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10011,7 +10011,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 554.3836
     y: 58.276592
-    width: 147.49988
+    width: 166
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10060,7 +10060,7 @@ MonoBehaviour:
     know me.
   description: 
   character: {fileID: 886809630}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10116,7 +10116,7 @@ MonoBehaviour:
     a fight or two; but I couldn't have murdered anyone!
   description: 
   character: {fileID: 1167047727}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6a9999bd7c8a0ff4a84b6a79c5b6e24a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10430,7 +10430,7 @@ MonoBehaviour:
     and clothes; yet I haven't seen her around.
   description: 
   character: {fileID: 1167047727}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6a9999bd7c8a0ff4a84b6a79c5b6e24a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10502,7 +10502,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1061.5034
     y: -441.5075
-    width: 120
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10801,7 +10801,7 @@ MonoBehaviour:
   storyText: No! Please, Katya right? You have the wrong person!
   description: 
   character: {fileID: 886809630}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11062,7 +11062,7 @@ MonoBehaviour:
     punks! You've got the wrong person!
   description: 
   character: {fileID: 1167047727}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6a9999bd7c8a0ff4a84b6a79c5b6e24a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11393,7 +11393,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 439.704
     y: -393.10205
-    width: 139.99988
+    width: 154
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11454,7 +11454,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 132.04639
     y: -124.812065
-    width: 144.99988
+    width: 174
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11950,7 +11950,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -65.767105
     y: -333.33026
-    width: 122.49991
+    width: 142
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12254,7 +12254,7 @@ MonoBehaviour:
   storyText: You can't d-
   description: 
   character: {fileID: 886809630}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12574,7 +12574,7 @@ MonoBehaviour:
     Don't make a mistake you'll regret.
   description: 
   character: {fileID: 1167047727}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6a9999bd7c8a0ff4a84b6a79c5b6e24a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12602,7 +12602,7 @@ MonoBehaviour:
     all!
   description: 
   character: {fileID: 886809630}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12722,7 +12722,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -403.8286
     y: -196.84534
-    width: 134.9999
+    width: 158
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12761,7 +12761,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -321.12326
     y: -264.9074
-    width: 132.4999
+    width: 154
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12931,7 +12931,7 @@ MonoBehaviour:
   storyText: Huh?
   description: 
   character: {fileID: 886809630}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13123,7 +13123,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -355.2496
     y: -110.925674
-    width: 120
+    width: 142
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13597,7 +13597,7 @@ MonoBehaviour:
   storyText: You may be a cop, but I can't thank you enough.
   description: 
   character: {fileID: 1167047727}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6a9999bd7c8a0ff4a84b6a79c5b6e24a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13651,7 +13651,7 @@ MonoBehaviour:
   storyText: Okay!
   description: 
   character: {fileID: 886809630}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14632,7 +14632,8 @@ MonoBehaviour:
   nameText: Asya Davydov
   nameColor: {r: 0.7735849, g: 0.74321234, b: 0.43422925, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 8ca47babf0001094b8fe43bc598a5d53, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -14813,7 +14814,8 @@ MonoBehaviour:
   nameText: Olga Sorokin
   nameColor: {r: 0.8867924, g: 0.56280494, b: 0.071110725, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 6a9999bd7c8a0ff4a84b6a79c5b6e24a, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
