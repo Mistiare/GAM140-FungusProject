@@ -825,7 +825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 554982391}
+  parentBlock: {fileID: 554982250}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
 --- !u!114 &554982250
@@ -851,7 +851,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Introduction
   description: Setting the world around you
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 554982249}
   commandList:
   - {fileID: 554982248}
   - {fileID: 554982267}
@@ -873,11 +873,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1126.0514, y: 299.62244}
+  scrollPos: {x: 1395.8077, y: 212.11066}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 393
-  zoom: 0.3999999
+  zoom: 0.4000005
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -885,9 +885,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 554982418}
-  selectedCommands:
-  - {fileID: 554982619}
+  - {fileID: 554982666}
+  selectedCommands: []
   variables:
   - {fileID: 554982297}
   - {fileID: 554982317}
@@ -947,7 +946,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 569.275
     y: 326.24423
-    width: 137.50003
+    width: 137.49988
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1013,7 +1012,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 344.364
     y: 308.45706
-    width: 120.00002
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1045,7 +1044,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 223.75397
     y: 556.86896
-    width: 142.50003
+    width: 142.49988
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1077,7 +1076,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -52.779213
     y: 556.8105
-    width: 120.00002
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1109,7 +1108,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -100.81544
     y: 404.46066
-    width: 125.00002
+    width: 124.9999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1141,7 +1140,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -154.29489
     y: 243.13263
-    width: 142.50003
+    width: 142.49988
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1171,7 +1170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -378.35944
     y: 196.09033
-    width: 120.00002
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1202,7 +1201,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -268.26862
     y: 41.357117
-    width: 125.00002
+    width: 124.9999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -1359,7 +1358,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.88832
     y: 260.12787
-    width: 125.00002
+    width: 124.9999
     height: 40
   tint: {r: 0.25882354, g: 0.5647059, b: 0.28858414, a: 1}
   useCustomTint: 1
@@ -1531,7 +1530,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 225.28523
     y: 116.16025
-    width: 120.00002
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1584,7 +1583,7 @@ MonoBehaviour:
   storyText: Moving on, we have Olga. Quite the character.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1611,7 +1610,7 @@ MonoBehaviour:
   storyText: A seemingly strange gal, as far as I know, she's got no previous convictions.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1638,7 +1637,7 @@ MonoBehaviour:
   storyText: Our first suspect - Asya Davydov.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1666,7 +1665,7 @@ MonoBehaviour:
     many a fight in the past and is known for her... outlandish behaviour.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1695,11 +1694,11 @@ MonoBehaviour:
     investigation is now in your hands.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 0
+  extendPrevious: 1
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
@@ -1723,7 +1722,7 @@ MonoBehaviour:
     as a fly, I doubt you'll have any issues with her.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4000,7 +3999,7 @@ MonoBehaviour:
   storyText: Oh... okay.
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4055,7 +4054,7 @@ MonoBehaviour:
   storyText: Oh, are you another customer? Autographs were an hour ago sweetie.
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4228,7 +4227,7 @@ MonoBehaviour:
   storyText: Anyone, it's a {b}skating rink{/b}.
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4283,7 +4282,7 @@ MonoBehaviour:
     anything like that?
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4310,7 +4309,7 @@ MonoBehaviour:
   storyText: They haven't said I couldn't.. yet
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4365,7 +4364,7 @@ MonoBehaviour:
     I swear!
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4432,7 +4431,7 @@ MonoBehaviour:
   storyText: The Staff! I swear, even talk to them yourselves.
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4632,7 +4631,7 @@ MonoBehaviour:
   storyText: No. Drop it.
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4687,7 +4686,7 @@ MonoBehaviour:
     it.
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4972,14 +4971,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 531.25684
     y: 206.8024
-    width: 195.00005
+    width: 194.99982
     height: 40
   tint: {r: 0.25882354, g: 0.5647059, b: 0.2901961, a: 1}
   useCustomTint: 1
   itemId: 132
   blockName: Advance in the Investigation
   description: 
-  eventHandler: {fileID: 554982249}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982393}
   - {fileID: 554982392}
@@ -5055,7 +5054,7 @@ MonoBehaviour:
     I suppose.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5241,7 +5240,7 @@ MonoBehaviour:
     again - so be quick!
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5852,7 +5851,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1256.9285
     y: 19.7086
-    width: 135.00003
+    width: 134.9999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5882,7 +5881,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1116.0476
     y: -39.778152
-    width: 167.50003
+    width: 167.49985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6920,7 +6919,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1379.3029
     y: 244.06465
-    width: 175.00003
+    width: 174.99985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6967,7 +6966,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1384.0602
     y: 373.8257
-    width: 132.50003
+    width: 132.4999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8318,7 +8317,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 898.96643
     y: 646.1944
-    width: 155.00003
+    width: 154.99986
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8361,7 +8360,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1051.0824
     y: 430.92914
-    width: 130.00003
+    width: 129.99991
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10012,7 +10011,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 554.3836
     y: 58.276592
-    width: 147.50003
+    width: 147.49988
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10089,7 +10088,7 @@ MonoBehaviour:
     constantly picking fights. It's the perfect cover-story for a murderer.
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10294,7 +10293,7 @@ MonoBehaviour:
   storyText: Make your decision, else I'll be forced to take action for you.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10349,7 +10348,7 @@ MonoBehaviour:
     and we can''t delay them much longer without losing public support. '
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10403,7 +10402,7 @@ MonoBehaviour:
   storyText: Of course, pick on the new girl. Typical... It's not me Inspector I swear!
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10458,7 +10457,7 @@ MonoBehaviour:
   storyText: Not my fault you can't keep up with the rest of us sweetie.
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10503,7 +10502,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1061.5034
     y: -441.5075
-    width: 120.00002
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10553,7 +10552,7 @@ MonoBehaviour:
   storyText: Perhaps you'll be more diligent the next time we meet, Inspector.
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10614,7 +10613,7 @@ MonoBehaviour:
   storyText: I warned you Katya, wasting time brings consequences.
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10658,7 +10657,7 @@ MonoBehaviour:
   storyText: W-What?!
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10686,7 +10685,7 @@ MonoBehaviour:
     all your powers, immediately. I will handle this case from now on.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10714,7 +10713,7 @@ MonoBehaviour:
     are useless.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10775,7 +10774,7 @@ MonoBehaviour:
   storyText: I warned you Katya, making the wrong decision brings consequences.
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10829,7 +10828,7 @@ MonoBehaviour:
   storyText: Understood Inspector, Asya, come with me - peacefully please.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10961,7 +10960,7 @@ MonoBehaviour:
   storyText: I warned you Katya, making the wrong decision brings consequences.
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11090,7 +11089,7 @@ MonoBehaviour:
   storyText: Understood Inspector, Olga, come with me - peacefully please.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11202,7 +11201,7 @@ MonoBehaviour:
     Lekrov Holossan.'
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11320,7 +11319,7 @@ MonoBehaviour:
   storyText: Understood Inspector, Lilia, come with me - peacefully please.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11394,7 +11393,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 439.704
     y: -393.10205
-    width: 140.00003
+    width: 139.99988
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11455,7 +11454,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 132.04639
     y: -124.812065
-    width: 145.00003
+    width: 144.99988
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11951,7 +11950,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -65.767105
     y: -333.33026
-    width: 122.50002
+    width: 122.49991
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12037,7 +12036,7 @@ MonoBehaviour:
   storyText: No loose ends Inspector, as you always said.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12119,7 +12118,7 @@ MonoBehaviour:
   storyText: No you won't Inspector. Did you not read the note left for you?
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12211,7 +12210,7 @@ MonoBehaviour:
   storyText: Shut your mouth. It'll be done Inspector.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12322,7 +12321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -149.91647
+    x: -148.81757
     y: -178.0237
     width: 120
     height: 40
@@ -12519,7 +12518,7 @@ MonoBehaviour:
   storyText: Hmph. They're lying fools Katya, just get it over with.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12547,7 +12546,7 @@ MonoBehaviour:
     deal with those sorts of consequences?
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12723,7 +12722,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -403.8286
     y: -196.84534
-    width: 135.00003
+    width: 134.9999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12762,7 +12761,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -321.12326
     y: -264.9074
-    width: 132.50003
+    width: 132.4999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12959,7 +12958,7 @@ MonoBehaviour:
   storyText: That won't be happening.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13043,7 +13042,7 @@ MonoBehaviour:
     kill next?
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13469,7 +13468,7 @@ MonoBehaviour:
     even you deserves a long death.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13625,7 +13624,7 @@ MonoBehaviour:
   storyText: Thank you so much!
   description: 
   character: {fileID: 1161645063}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13957,7 +13956,7 @@ MonoBehaviour:
     last longer. Farewell.
   description: 
   character: {fileID: 1896992331}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14631,7 +14630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Asya Davydov
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.7735849, g: 0.74321234, b: 0.43422925, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -14761,9 +14760,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Lilia Nekrasov
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 1, g: 0, b: 0.8268976, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: c132f178c3335004690a507b709153dc, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -15045,7 +15045,8 @@ MonoBehaviour:
   nameText: Police Officer
   nameColor: {r: 0.19090424, g: 0.32509983, b: 0.735849, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: d68bafa532179ca4aaff7d71b38fb525, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
