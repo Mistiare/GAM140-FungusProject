@@ -1179,7 +1179,6 @@ GameObject:
   - component: {fileID: 554982772}
   - component: {fileID: 554982771}
   - component: {fileID: 554982770}
-  - component: {fileID: 554982776}
   - component: {fileID: 554982792}
   - component: {fileID: 554982799}
   - component: {fileID: 554982797}
@@ -1198,6 +1197,12 @@ GameObject:
   - component: {fileID: 554982516}
   - component: {fileID: 554982515}
   - component: {fileID: 554982514}
+  - component: {fileID: 554982776}
+  - component: {fileID: 554982806}
+  - component: {fileID: 554982805}
+  - component: {fileID: 554982804}
+  - component: {fileID: 554982803}
+  - component: {fileID: 554982802}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1263,20 +1268,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -35.053864
-    y: 258.35297
-    width: 121.134056
+    x: -75.05386
+    y: 253.35297
+    width: 129.41165
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
   blockName: Introduction
-  description: Setting the world around you
+  description: The starting point of the story, this is used to set the scene for
+    the player contextually. The player is presented with two options; one to start
+    the game and another to quit.
   eventHandler: {fileID: 554982249}
   commandList:
-  - {fileID: 554982776}
   - {fileID: 554982734}
   - {fileID: 554982730}
+  - {fileID: 554982776}
   - {fileID: 554982718}
   - {fileID: 554982732}
   - {fileID: 554982731}
@@ -1301,19 +1308,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -890.2343, y: -652.522}
+  scrollPos: {x: 631.34406, y: 1285.9507}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 393
-  zoom: 0.96999955
+  blockViewHeight: 672
+  zoom: 0.34000045
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 554982402}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 554982297}
@@ -1372,15 +1378,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 481.74646
-    y: 528.9496
-    width: 152.0619
+    x: 485.7675
+    y: 500.6093
+    width: 152.94104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 14
   blockName: Occupation (Lilia)
-  description: What's your occupation?
+  description: What's your occupation? - Informs the player of Lilia's occupation.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982383}
@@ -1403,15 +1409,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 373.47034
-    y: 698.6953
-    width: 130.41241
+    x: 471.1088
+    y: 706.52545
+    width: 126.47049
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 13
   blockName: Reason (Lilia)
-  description: Why were you there?
+  description: Why were you there? - Informs the player of Lilia's alibi during the
+    murder.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982371}
@@ -1438,15 +1445,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 236.24658
-    y: 528.80945
-    width: 135.56705
+    x: 245.58698
+    y: 464.2989
+    width: 132.35283
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 12
   blockName: Location (Lilia)
-  description: Where were you?
+  description: Where were you? - Informs the player of Lilia's location during the
+    murder.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982368}
@@ -1470,15 +1478,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 115.63626
-    y: 777.22125
-    width: 158.24747
+    x: 158.74268
+    y: 757.2
+    width: 158.8234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 11
   blockName: Occupation (Asya)
-  description: What's your occupation?
+  description: What's your occupation? - Informs the player of Asya's occupation.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982341}
@@ -1502,15 +1510,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -160.89676
-    y: 777.1628
-    width: 136.59798
+    x: -217.89676
+    y: 738.1628
+    width: 132.35283
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 10
   blockName: Reason (Asya)
-  description: Why were you there?
+  description: Why were you there? - Informs the player of Asya's alibi during the
+    murder.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982347}
@@ -1534,15 +1543,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -208.93274
-    y: 624.81305
-    width: 141.75262
+    x: -266.93274
+    y: 614.81305
+    width: 138.23517
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 9
   blockName: Location (Asya)
-  description: Where were you?
+  description: Where were you? - Informs the player of Asya's location during the
+    murder.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982334}
@@ -1566,15 +1576,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -262.412
-    y: 463.48502
-    width: 156.18561
+    x: -325.80347
+    y: 513.6396
+    width: 158.8234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 8
   blockName: Occupation (Olga)
-  description: What's your occupation?
+  description: What's your occupation? - Informs the player of Olga's occupation.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982306}
@@ -1596,15 +1606,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -486.4762
-    y: 416.44296
-    width: 134.53613
+    x: -477.0432
+    y: 385.57718
+    width: 132.35283
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 7
   blockName: Reason (Olga)
-  description: Why were you there?
+  description: Why were you there? - Informs the player of Olga's alibi during the
+    murder.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982304}
@@ -1627,15 +1638,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -376.38544
-    y: 261.71008
-    width: 139.69077
+    x: -446.35452
+    y: 264.02982
+    width: 138.23517
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
   itemId: 6
   blockName: Location (Olga)
-  description: Where were you?
+  description: Where were you? - Informs the player of Olga's location during the
+    murder.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982290}
@@ -1658,15 +1670,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 303.55804
-    y: 604.45404
+    x: 301.19623
+    y: 571.85876
     width: 120
     height: 40
   tint: {r: 0.9433962, g: 0.9196246, b: 0.06674972, a: 1}
   useCustomTint: 1
   itemId: 5
   blockName: Lilia
-  description: 
+  description: Initial meeting with Lilia - one of the main suspects and characters.
+    This gives the player a chance to assess their personality and ask foundation
+    questions to gather alibis.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982361}
@@ -1700,15 +1714,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -17.145203
-    y: 694.57605
+    x: -20.145203
+    y: 677.57605
     width: 120
     height: 40
   tint: {r: 1, g: 0.9607843, b: 0, a: 1}
   useCustomTint: 1
   itemId: 4
   blockName: Asya
-  description: 
+  description: Initial meeting with Asya - one of the main suspects and characters.
+    This gives the player a chance to assess their personality and ask foundation
+    questions to gather alibis.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982327}
@@ -1746,15 +1762,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -307.95828
-    y: 349.94067
+    x: -263.95828
+    y: 331.94067
     width: 120
     height: 40
   tint: {r: 1, g: 0.9614235, b: 0, a: 1}
   useCustomTint: 1
   itemId: 3
   blockName: Olga
-  description: 
+  description: Initial meeting with Olga - one of the main suspects and characters.
+    This gives the player a chance to assess their personality and ask foundation
+    questions to gather alibis.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982296}
@@ -1787,17 +1805,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -38.229385
-    y: 480.48022
-    width: 137.6289
+    x: -15.229385
+    y: 441.48022
+    width: 138.23517
     height: 40
   tint: {r: 0.25882354, g: 0.5647059, b: 0.28858414, a: 1}
   useCustomTint: 1
   itemId: 2
   blockName: Suspect choice
-  description: 'Suspect choice menu
+  description: 'Moving from the contextual setting, the player is introduced to the
+    primary characters of the game and their personalities. Following an initial meet
+    and discussion, the player can decide whom to interrogate first.
 
-'
+
+    This block is also used as a hub for going between suspect interrogations.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982719}
@@ -1964,15 +1985,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 117.16753
-    y: 336.51324
-    width: 131.44333
+    x: 106.16753
+    y: 270.51324
+    width: 132.35283
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 20
   blockName: Exit the game
-  description: Literally exits the game.
+  description: By choosing that they're not ready for the investigation, the player
+    forcibly exits the application. Also offering a way of exiting rather than ALT+F4
   eventHandler: {fileID: 554982733}
   commandList:
   - {fileID: 554982270}
@@ -5404,15 +5426,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 531.25684
-    y: 206.8024
-    width: 218.04132
+    x: 732.89606
+    y: 216.63846
+    width: 220.58801
     height: 40
   tint: {r: 0.25882354, g: 0.5647059, b: 0.2901961, a: 1}
   useCustomTint: 1
   itemId: 132
   blockName: Advance in the Investigation
-  description: 
+  description: 'The Player has now gathered information from the suspects and advances
+    the investigation by looking into their Alibis.
+
+
+    This block is used as a hub for going between locations and to the final section
+    ''Interrogation Room'' once finished.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982393}
@@ -5704,15 +5731,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1426.6448
-    y: 590.96515
+    x: 1398.3342
+    y: 375.83612
     width: 120
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.94509804, g: 0.92156863, b: 0.06666667, a: 1}
+  useCustomTint: 1
   itemId: 153
   blockName: Outside
-  description: 
+  description: 'Going outside, the player is introduced to the smokers - the group
+    that saw Asya earlier.
+
+
+    Player is presented with two options - questioning or looking around. '
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982464}
@@ -5750,15 +5781,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1307.4548
-    y: 321.40088
+    x: 1401.5255
+    y: 189.59142
     width: 120
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.94509804, g: 0.92156863, b: 0.06666667, a: 1}
+  useCustomTint: 1
   itemId: 152
   blockName: Bar
-  description: 
+  description: 'Moving into the Bar, the player is introduced to the Bartender - a
+    non-essential character.
+
+
+    Player is presented with two options - questioning or looking around. '
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982415}
@@ -5796,15 +5831,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1252.9885
-    y: 801.33704
+    x: 1402.6724
+    y: 549.27405
     width: 120
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.94509804, g: 0.92156863, b: 0.06666667, a: 1}
+  useCustomTint: 1
   itemId: 151
   blockName: Ice Rink
-  description: 
+  description: 'This Block is utilised as the transition into the final interrogations
+    of the game. If the player has explored all other areas, they''ll get a unique
+    dialog tree.
+
+
+    Otherwise, the Player can speak with the Skaters.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982505}
@@ -6316,15 +6356,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1500.9285
-    y: 299.70862
-    width: 154.12375
+    x: 1576.5276
+    y: 84.958115
+    width: 149.99988
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 161
   blockName: Examine the area
-  description: 
+  description: Here the Player can see that there's been a fight of some kind here.
+    This reinforces Olga's alibi.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982424}
@@ -6346,15 +6387,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1360.0476
-    y: 240.22185
-    width: 188.1444
+    x: 1182.5638
+    y: 26.207886
+    width: 188.2351
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 160
   blockName: Speak to the Bartender
-  description: 
+  description: "Choosing to question the Bartender, the Player can find out about
+    Olga's alibi.\n\nThe Bartender's depth of response is dependant on the Player's
+    original interrogation of Olga. \n\nThere is also a chance of a random encounter
+    here."
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982619}
@@ -7385,15 +7429,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1631.2573
-    y: 528.6101
-    width: 196.39182
+    x: 1687.3832
+    y: 295.1592
+    width: 197.05862
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 196
   blockName: Interrogate the Smokers
-  description: 
+  description: 'Similarly to the Bartender, the Player can choose to question the
+    Smokers about Asya''s alibi.
+
+
+    Once again, the depth of their response and usefulness is entirely dependant on
+    their original interrogation of Asya.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982490}
@@ -7435,15 +7484,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1628.0602
-    y: 653.8257
-    width: 146.90726
+    x: 1771.6692
+    y: 491.51187
+    width: 147.05869
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 195
   blockName: Inspect the area
-  description: 
+  description: Here the Player can look around, noticing that there's been a lot of
+    movement here. It's a hint towards Asya's alibi, but not a confirmation.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982471}
@@ -8788,15 +8838,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1142.9664
-    y: 926.1944
-    width: 175.77325
+    x: 1166.8003
+    y: 580.67316
+    width: 173.52925
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 236
   blockName: Look around the 'rink
-  description: 
+  description: 'Having investigated all leads, the player finds a note - hurrying
+    them in making a decision before consequences occur.
+
+
+    This is the lead into the final part of the game where the player will choose
+    whom to arrest.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982521}
@@ -8826,15 +8881,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1293.1593
-    y: 710.92914
-    width: 150.00005
+    x: 1577.6189
+    y: 596.3696
+    width: 144.11752
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 235
   blockName: Speak to skaters
-  description: 
+  description: 'Speaking to the Skaters will reveal Lilia as a suspicious person,
+    but this will not trigger until all other areas have been explored.
+
+
+    The intent behind this is to ensure the player develops a concept of who''s innocent
+    and guilty in their mind.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982537}
@@ -10331,15 +10391,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 916.60626
-    y: -510.74997
+    x: 744.2293
+    y: -282.50366
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 283
   blockName: Outoftime
-  description: 
+  description: 'Player takes too long, forcing the Police Officer to decide for them.
+    Killer takes the opportunity to kill the Police Officer.
+
+
+    Morally a loss, Innocent dies and Killer escapes.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982574}
@@ -10367,15 +10431,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 647.64526
-    y: -400.77255
-    width: 120
+    x: 641.86597
+    y: -474.51978
+    width: 123.52931
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 282
   blockName: AsyaEnding
-  description: 
+  description: 'Player arrests an innocent. Killer takes the opportunity to strike
+    once more.
+
+
+    Morally a loss, Innocent dies and Killer escapes.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982580}
@@ -10401,15 +10469,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 458.4098
-    y: -269.6068
-    width: 120
+    x: 438.56564
+    y: -329.82138
+    width: 123.52931
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 281
   blockName: OlgaEnding
-  description: 
+  description: 'Player arrests an innocent. Killer takes the opportunity to strike
+    once more.
+
+
+    Morally a loss, Innocent dies and Killer escapes.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982592}
@@ -10435,15 +10507,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -170.42389
-    y: -124.361206
+    x: 148.98515
+    y: -16.406708
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 280
   blockName: LiliaEnding
-  description: 
+  description: 'Choosing this ending leads to a quick fight between Lilia and the
+    Officer, ultimately resulting in victory.
+
+
+    An overall moral victory.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982601}
@@ -10473,15 +10549,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 554.3836
-    y: 58.276592
-    width: 162.37119
+    x: 420.29208
+    y: -122.62043
+    width: 164.70572
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.25882354, g: 0.5647059, b: 0.2901961, a: 1}
+  useCustomTint: 1
   itemId: 279
   blockName: Interrogation room
-  description: 
+  description: "Moving onto the final section of narrative, all suspects have an argument,
+    attempting to convince the player. \n\nWith this in mind and their previous info,
+    the Player has to make a decision.\n\nAlternatively, there's a chance that the
+    'PoliceOfficerEnding' will run instead of a linear-based ending. This is decided
+    by a integer randomizer."
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982722}
@@ -11916,13 +11996,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 166.82907
     y: -194.37737
-    width: 162.37119
+    width: 161.76456
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.25882354, g: 0.5647059, b: 0.2901961, a: 1}
+  useCustomTint: 1
   itemId: 352
   blockName: PoliceOfficerEnding
-  description: 
+  description: Random alternative ending. Police Officer pressures the Player to make
+    a decision.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982649}
@@ -12424,11 +12505,15 @@ MonoBehaviour:
     y: -627.20746
     width: 120
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 1, g: 0, b: 0, a: 1}
+  useCustomTint: 1
   itemId: 392
   blockName: Lose
-  description: 
+  description: 'Transition into the Loss scene. Taunts the Player by saying they failed,
+    people dying as a result of their actions.
+
+
+    Encourages replayability.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982789}
@@ -12812,15 +12897,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -10.582275
-    y: -274.0531
+    x: -0.5822754
+    y: -304.0531
     width: 120
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.25882354, g: 0.5647059, b: 0.2901961, a: 1}
+  useCustomTint: 1
   itemId: 375
   blockName: DontArrest
-  description: 
+  description: "Police Officer gets mad at the Player for not deciding, turning to
+    violence. \n\nAt gunpoint, the Player has two choices: Save themselves, or save
+    the innocents."
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982665}
@@ -12850,15 +12937,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 134.71072
-    y: -422.8519
+    x: 190.66536
+    y: -419.07947
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 374
   blockName: ArrestAll
-  description: 
+  description: 'Player arrests all, pressured by the Police Officer.
+
+
+    Doesn''t realise what''s truly going on, dying as a consequence.
+
+
+    Morally, a loss. Player dies, Innocents are locked up. Killer still on the loose.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982637}
@@ -13223,13 +13316,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: -297.1326
     y: -263.2804
-    width: 148.96912
+    width: 149.99988
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 408
   blockName: Innocents Saved
-  description: 
+  description: 'Player sacrifices themselves to save all the Innocent suspects from
+    the murderer.
+
+
+    Moral victory, at a sacrifice.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982692}
@@ -13260,15 +13357,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -103.74841
-    y: -387.9957
-    width: 146.90726
+    x: 1.5242767
+    y: -442.3141
+    width: 147.05869
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 407
   blockName: Inspector Saved
-  description: 
+  description: 'Player sacrifices all innocents to save themselves.
+
+
+    Morally, a loss. Killing three people.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982675}
@@ -13621,15 +13721,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -327.60242
-    y: -404.60208
-    width: 133.50519
+    x: -251.46625
+    y: -423.92047
+    width: 129.41165
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  useCustomTint: 1
   itemId: 410
   blockName: Everyone dies
-  description: 
+  description: 'By not acting fast enough, everyone dies.
+
+
+    Complete loss of life. Moral loss.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982706}
@@ -16282,15 +16385,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -487.2877
-    y: -166.5387
+    x: -87.28789
+    y: -131.3114
     width: 120
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 1, g: 0, b: 0, a: 1}
+  useCustomTint: 1
   itemId: 582
   blockName: Win
-  description: 
+  description: 'Transition into the Win scene. Taunts the player by asking them whether
+    they could''ve done better?
+
+
+    Encourages replayability.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 554982765}
@@ -16579,13 +16686,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 554982247}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0000066e72e484959b6a314a95d0dcd2, type: 3}
+  m_Script: {fileID: 11500000, guid: d81be3d7e84da460788dccea95a3313a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 588
+  itemId: 614
   indentLevel: 0
-  resetCommands: 1
-  resetVariables: 1
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1333599493}
+  destroyInXSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &554982777
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17292,6 +17404,136 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &554982802
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554982247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1110.1691
+    y: -965.01306
+    width: 132.35283
+    height: 40
+  tint: {r: 0, g: 0.9706273, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 619
+  blockName: Colour coding
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &554982803
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554982247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1466.8723
+    y: -869.39014
+    width: 176.47043
+    height: 40
+  tint: {r: 1, g: 0.92589796, b: 0, a: 1}
+  useCustomTint: 1
+  itemId: 618
+  blockName: Key-story areas/hubs
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &554982804
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554982247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1225.8395
+    y: -870.1363
+    width: 176.47043
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 617
+  blockName: Dialogue/Information
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &554982805
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554982247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1009.9886
+    y: -868.47974
+    width: 161.76456
+    height: 40
+  tint: {r: 0.25882354, g: 0.5647059, b: 0.2901961, a: 1}
+  useCustomTint: 1
+  itemId: 616
+  blockName: Key-story decisions
+  description: Also used as a transition between areas of the game.
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &554982806
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554982247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 818.9143
+    y: -868.97186
+    width: 120
+    height: 40
+  tint: {r: 1, g: 0, b: 0, a: 1}
+  useCustomTint: 1
+  itemId: 615
+  blockName: End scenes
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
 --- !u!1 &588746132
 GameObject:
   m_ObjectHideFlags: 0
